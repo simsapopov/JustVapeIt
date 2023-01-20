@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Вейп и аксесоари - разнообразие и иннфораммиця на едно място. Безплатна и бърза доставка!">
     <meta name="keywords" content="Вейп устройства, caliburn, изпаряване,електронни цигари, течности, iqos, Вейп аксесоари">
-    <title>home</title>
+    <title>JustVapeIt</title>
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -20,49 +20,43 @@
 </head>
 <body>
     
-
-    <header class="header">
-   
-        <a href="index.html" class="logo"> <i class="fas fa-store"></i> JustVapeIt </a>
-    
-        <form action="" class="search-form">
-            <input type="search" id="search-box" placeholder="search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-    
-        <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="login.html" class="fas fa-user"></a>
-            <a href="#" class="fas fa-heart"></a>
-          
-        </div>
-    
-    </header>
-    
-    
-    <div class="side-bar">
-    
-        <div id="close-side-bar" class="fas fa-times"></div>
-    
-        <div class="user">
-            <img src="images/guest.png" alt="Emoji of guest ">
-            <h3>Guest</h3>
-            <a href="#">log out</a>
-        </div>
-    
-        <nav class="navbar">
-            <a href="index.html"> <i class="fas fa-angle-right"></i> home </a>
-            <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
-            <a href="products.html"> <i class="fas fa-angle-right"></i> products </a>
-            <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
-            <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
-            <a href="register.html"> <i class="fas fa-angle-right"></i> register </a>
-         
+    <header>
+        <!-- header section starts  -->
+        <nav class="navigation">  
+            <ul>
+                <img src="JustVapeIt.png">
+                <li>
+                    <a class="navLink" href = "index.html">
+                        <p class="title">home</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="navLink" href = "about.html">
+                        <p class="title">about</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="navLink" href = "products.html">
+                        <p class="title">products</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="navLink" href = "contact.html">
+                        <p class="title">contact</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="navLink" href = "login.html">
+                        <p class="title">login</p>
+                    </a>
+                </li>
+            
+            </ul>
         </nav>
-    
-    </div>
-
+        
+        <btn class="toggle" id="mobile-menu"></btn>
+        
+        </header>
 <section class="home">
 
     <div class="swiper home-slider">
@@ -119,14 +113,15 @@
 
 <section class="arrivals">
 
-    <h1 class="heading"> new <span>arrivals</span> </h1>
+    <h1 class="heading"> Нов асортимент вторник всяка седмица  </h1>
+    <h2>Всекидневно се опитваме да подобрим нашия асортимент и това носи нови възможности. Можем да се похвалим с това че сме най-големия онлайн магазин в България и сме вносители на всички големи марки на пазара. Нашето желание е да помогнем на все повече хора да успеят да се откажат от традиционното пушене. Доставката винаги е безплатна*</h2>
 
     <div class="box-container">
 
         <div class="box">
             <div class="image">
-                <img src="images/pod-sistema.jpg" class="main-img" alt="">
-                <img src="images/pod-sistema.jpg" class="hover-img" alt="">
+                <img src="images/pod-sistema.jpg" class="main-img" alt="Photo of pod system">
+                <img src="images/pod-sistema.jpg" class="hover-img" alt="Photo of the new geekvape pod system">
             </div>
             <div class="content">
                 <h3>Еднократни под системи</h3>
@@ -143,8 +138,8 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/JustVapeIt.jpg" class="main-img" alt="">
-                <img src="images/JustVapeIt.jpg" class="hover-img" alt="">
+                <img src="images/JustVapeIt.jpg" class="main-img" alt="Photo of the logo">
+                <img src="images/JustVapeIt.jpg" class="hover-img" alt="Photo of the logo">
             </div>
             <div class="content">
                 <h3>Стикери</h3>
@@ -162,8 +157,8 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/geekvape.jpg" class="main-img" alt="">
-                <img src="images/geekvape.jpg" class="hover-img" alt="">
+                <img src="images/geekvape.jpg" class="main-img" alt="Photo new purple vape">
+                <img src="images/geekvape.jpg" class="hover-img" alt="Photo new yellow vape">
             </div>
             <div class="content">
                 <h3>Нови модели GEEKVAPE</h3>
@@ -180,7 +175,7 @@
         </div>
 
     </div>
-
+    <p> *Безплатната доставка е само до офис на куриери : Спиди,Еконт и транспррес. При желание и доплащане отт 3 лв се изпраща до адрес.</p>
 </section>
 
 <!-- arrivals section ends -->
@@ -209,7 +204,7 @@
        <div class="footer-col">
          <h4>company</h4>
          <ul>
-           <li><a href="about.html">about us</a></li>
+           <li><a href="#homel">about us</a></li>
            <li><a href="contact.html">our services</a></li>
        
          </ul>
@@ -226,8 +221,8 @@
        <div class="footer-col">
          <h4>Онлайн магазин</h4>
          <ul>
-           <li><a href="#">Аксесоари</a></li>
-           <li><a href="#">Вейпове</a></li>
+           <li><a href="products.html">Аксесоари</a></li>
+           <li><a href="products.html">Вейпове</a></li>
          
          </ul>
        </div>
