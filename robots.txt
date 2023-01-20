@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://simsapopov.github.io/justvapeit/sitemap.xml
